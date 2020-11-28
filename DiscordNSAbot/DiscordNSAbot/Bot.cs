@@ -24,10 +24,11 @@ namespace DiscordNSAbot
 			SetupClient(configJson);
 			SetupCommands(configJson);
 
+			await Client.ConnectAsync();
+
 			Channels.AssignChannelsAsync(Client, configJson);
 			Guilds.AssignGuildsAsync(Client, configJson);
 
-			await Client.ConnectAsync();
 			await Task.Delay(-1);
 		}
 
