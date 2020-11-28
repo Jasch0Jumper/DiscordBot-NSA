@@ -8,6 +8,10 @@ namespace DiscordNSAbot
 		{
 			var bot = new Bot();
 			bot.RunAsync().GetAwaiter().GetResult();
+
+			Console.WriteLine("-----------");
+			Console.WriteLine("---ready---");
+			Console.WriteLine("-----------");
 		}
 	}
 }

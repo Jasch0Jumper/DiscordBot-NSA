@@ -53,7 +53,6 @@ namespace DiscordNSAbot
 					Nwo = Environment.GetEnvironmentVariable("nwo")
 				};
 			}
-			
 		}
 
 		private async Task<ConfigJson> ReadJsonConfig()
@@ -182,6 +181,8 @@ namespace DiscordNSAbot
 				.WithAuthor($"{author.Username}#{author.Discriminator} --- {nickname}", null, author.AvatarUrl)
 				.WithDescription($"{message.Channel.Mention} | {logTypeMessage} | {message.Timestamp} | ID: {message.Id} \n {additionalLogMessage}")
 			);
+
+			Console.WriteLine($"{message.Timestamp}: {logTypeMessage}");
 		}
 
 		private async void SendAndDeleteFiles(MessageCreateEventArgs e)
