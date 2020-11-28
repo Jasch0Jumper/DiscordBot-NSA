@@ -19,7 +19,7 @@ namespace DiscordNSAbot
 
 		public async Task RunAsync()
 		{
-			ConfigJson configJson = await ReadJsonConfig().ConfigureAwait(false);
+			ConfigJson configJson = await GetConfigVars().ConfigureAwait(false);
 
 			SetupClient(configJson);
 			SetupCommands(configJson);
@@ -29,6 +29,31 @@ namespace DiscordNSAbot
 
 			await Client.ConnectAsync();
 			await Task.Delay(-1);
+		}
+
+		private async Task<ConfigJson> GetConfigVars()
+		{
+			if (File.Exists("config.json"))
+			{
+				return await ReadJsonConfig().ConfigureAwait(false);
+			}
+			else
+			{
+				return new ConfigJson
+				{
+					Token = Environment.GetEnvironmentVariable("token"),
+					Prefix = Environment.GetEnvironmentVariable("prefix"),
+
+					NsaDev = Environment.GetEnvironmentVariable("nsadev"),
+					ClipboardLog = Environment.GetEnvironmentVariable("clipboardlog"),
+					NwoLogInClipboard = Environment.GetEnvironmentVariable("nwologinclipboard"),
+					NwoLog = Environment.GetEnvironmentVariable("nwolog"),
+
+					Clipboard = Environment.GetEnvironmentVariable("clipboard"),
+					Nwo = Environment.GetEnvironmentVariable("nwo")
+				};
+			}
+			
 		}
 
 		private async Task<ConfigJson> ReadJsonConfig()
