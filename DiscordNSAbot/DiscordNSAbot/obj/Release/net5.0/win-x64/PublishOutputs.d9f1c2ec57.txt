@@ -1,0 +1,6 @@
+C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNSAbot\bin\Release\netcoreapp3.1\publish\DiscordNSAbot.pdb
+C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNSAbot\bin\Release\netcoreapp3.1\publish\clrcompression.dll
+C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNSAbot\bin\Release\netcoreapp3.1\publish\clrjit.dll
+C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNSAbot\bin\Release\netcoreapp3.1\publish\coreclr.dll
+C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNSAbot\bin\Release\netcoreapp3.1\publish\mscordaccore.dll
+C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNSAbot\bin\Release\netcoreapp3.1\publish\DiscordNSAbot.exe
