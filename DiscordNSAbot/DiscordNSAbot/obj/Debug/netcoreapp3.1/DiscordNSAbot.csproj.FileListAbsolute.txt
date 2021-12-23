@@ -1,5 +1,4 @@
 C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNSAbot\bin\Debug\netcoreapp3.1\DiscordNSAbot.exe
-C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNSAbot\obj\Debug\netcoreapp3.1\DiscordNSAbot.csprojAssemblyReference.cache
 C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNSAbot\obj\Debug\netcoreapp3.1\DiscordNSAbot.AssemblyInfoInputs.cache
 C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNSAbot\obj\Debug\netcoreapp3.1\DiscordNSAbot.AssemblyInfo.cs
 C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNSAbot\bin\Debug\netcoreapp3.1\DSharpPlus.dll
@@ -21,3 +20,5 @@ C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNS
 C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNSAbot\obj\Debug\netcoreapp3.1\DiscordNSAbot.dll
 C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNSAbot\obj\Debug\netcoreapp3.1\DiscordNSAbot.pdb
 C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNSAbot\obj\Debug\netcoreapp3.1\DiscordNSAbot.genruntimeconfig.cache
+C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNSAbot\bin\Debug\netcoreapp3.1\ConcurrentCollections.dll
+C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNSAbot\obj\Debug\netcoreapp3.1\DiscordNSAbot.csproj.AssemblyReference.cache

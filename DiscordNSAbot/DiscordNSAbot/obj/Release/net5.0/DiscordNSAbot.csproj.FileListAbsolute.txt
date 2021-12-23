@@ -22,4 +22,5 @@ C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNS
 C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNSAbot\obj\Release\net5.0\ref\DiscordNSAbot.dll
 C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNSAbot\obj\Release\net5.0\DiscordNSAbot.pdb
 C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNSAbot\obj\Release\net5.0\DiscordNSAbot.genruntimeconfig.cache
-C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNSAbot\obj\Release\net5.0\DiscordNSAbot.csprojAssemblyReference.cache
+C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNSAbot\bin\Release\net5.0\ConcurrentCollections.dll
+C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNSAbot\obj\Release\net5.0\DiscordNSAbot.csproj.AssemblyReference.cache

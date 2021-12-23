@@ -23,7 +23,7 @@ namespace DiscordNSAbot
 
 		public static List<DiscordChannel> GetLogChannel(DiscordMessage message)
 		{
-			List<DiscordChannel> logChannels = new List<DiscordChannel>();
+			var logChannels = new List<DiscordChannel>();
 			var guild = message.Channel.Guild;
 
 			if (guild == Guilds.Clipboard)

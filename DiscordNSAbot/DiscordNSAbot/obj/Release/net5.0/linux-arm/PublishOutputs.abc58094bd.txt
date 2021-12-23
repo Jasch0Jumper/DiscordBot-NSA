@@ -1,0 +1,2 @@
+C:\Users\Jasch\Projects\DiscordBot\Csharp\RaspberryPi\DiscordNSAbot.pdb
+C:\Users\Jasch\Projects\DiscordBot\Csharp\RaspberryPi\DiscordNSAbot

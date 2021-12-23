@@ -13,7 +13,6 @@ C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNS
 C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNSAbot\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNSAbot\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNSAbot\bin\Debug\net5.0\Newtonsoft.Json.dll
-C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNSAbot\obj\Debug\net5.0\DiscordNSAbot.csprojAssemblyReference.cache
 C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNSAbot\obj\Debug\net5.0\DiscordNSAbot.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNSAbot\obj\Debug\net5.0\DiscordNSAbot.AssemblyInfoInputs.cache
 C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNSAbot\obj\Debug\net5.0\DiscordNSAbot.AssemblyInfo.cs
@@ -23,3 +22,5 @@ C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNS
 C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNSAbot\obj\Debug\net5.0\ref\DiscordNSAbot.dll
 C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNSAbot\obj\Debug\net5.0\DiscordNSAbot.pdb
 C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNSAbot\obj\Debug\net5.0\DiscordNSAbot.genruntimeconfig.cache
+C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNSAbot\bin\Debug\net5.0\ConcurrentCollections.dll
+C:\Users\Jasch\Projects\DiscordBot\Csharp\DiscordBot-NSA\DiscordNSAbot\DiscordNSAbot\obj\Debug\net5.0\DiscordNSAbot.csproj.AssemblyReference.cache

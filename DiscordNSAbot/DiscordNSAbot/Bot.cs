@@ -22,7 +22,7 @@ namespace DiscordNSAbot
 			ConfigJson configJson = await GetConfigVars().ConfigureAwait(false);
 
 			SetupClient(configJson);
-			SetupCommands(configJson);
+			//SetupCommands(configJson);
 
 			await Client.ConnectAsync();
 
@@ -32,7 +32,7 @@ namespace DiscordNSAbot
 			await Task.Delay(-1);
 		}
 
-		private async Task<ConfigJson> GetConfigVars()
+		private static async Task<ConfigJson> GetConfigVars()
 		{
 			if (File.Exists("config.json"))
 			{
@@ -55,8 +55,8 @@ namespace DiscordNSAbot
 				};
 			}
 		}
-
-		private async Task<ConfigJson> ReadJsonConfig()
+		
+		private static async Task<ConfigJson> ReadJsonConfig()
 		{
 			var json = string.Empty;
 
@@ -112,6 +112,7 @@ namespace DiscordNSAbot
 
 			return default;
 		}
+		
 		private Task OnMessageCreated(DiscordClient sender, MessageCreateEventArgs e)
 		{
 			if (e.Author.IsBot) { return default; }
@@ -144,7 +145,7 @@ namespace DiscordNSAbot
 			return default;
 		}
 
-		private void DownloadAttachments(MessageCreateEventArgs e)
+		private static void DownloadAttachments(MessageCreateEventArgs e)
 		{
 			foreach (var file in e.Message.Attachments)
 			{
@@ -153,7 +154,7 @@ namespace DiscordNSAbot
 			}
 		}
 
-		private void SendDiscordEmbed(DiscordMessage message, LogType logType, string additionalLogMessage)
+		private static void SendDiscordEmbed(DiscordMessage message, LogType logType, string additionalLogMessage)
 		{
 			DiscordUser author = message.Author;
 			string nickname = message.Channel.Guild.GetMemberAsync(author.Id).Result.Nickname;
@@ -186,12 +187,16 @@ namespace DiscordNSAbot
 			Console.WriteLine($"{message.Timestamp}: {logTypeMessage}");
 		}
 
-		private async void SendAndDeleteFiles(MessageCreateEventArgs e)
+		private static async void SendAndDeleteFiles(MessageCreateEventArgs e)
 		{
 			foreach (var file in e.Message.Attachments)
 			{
 				using var fs = File.Open($"{file.FileName}", FileMode.Open);
-				await Channels.NSADev.SendFileAsync(fs);
+
+				DiscordMessageBuilder newMessage = new();
+				newMessage.WithFile(fs);
+
+				await Channels.NSADev.SendMessageAsync(newMessage);
 
 				fs.Close();
 
